@@ -12,5 +12,9 @@
       <DocumentationFile>bin\Release\DotnetApiScaffold.xml</DocumentationFile>
     </PropertyGroup>
 
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Properties\launchSettings.json" />
+    </ItemGroup>
+
 
 </Project>
