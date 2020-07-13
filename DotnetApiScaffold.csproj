@@ -8,5 +8,9 @@
       <DocumentationFile>bin\Debug\DotnetApiScaffold.xml</DocumentationFile>
     </PropertyGroup>
 
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+      <DocumentationFile>bin\Release\DotnetApiScaffold.xml</DocumentationFile>
+    </PropertyGroup>
+
 
 </Project>
